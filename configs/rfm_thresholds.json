@@ -1,0 +1,28 @@
+{
+  "fit_split": "train",
+  "snapshot_date": "2011-01-01 00:00:00",
+  "quantiles": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "scores": [
+    1,
+    2,
+    3
+  ],
+  "boundary_rule": "value <= threshold stays in lower numeric interval",
+  "thresholds": {
+    "recency_days": [
+      36.0,
+      74.0
+    ],
+    "frequency_180d": [
+      1.0,
+      3.0
+    ],
+    "monetary_180d_gbp": [
+      355.45,
+      942.46
+    ]
+  }
+}
